@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #90a4ae;
+}
+#container{
+    background: #0a0a0f;
+    margin: 40px auto;
+    width: 410px;
+    height: 600px;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 4px 10px 2px;   
+}
+#input{
+    background: #52527a;
+    margin: auto;
+    width: 380px;
+    height: 580px;
+    border-radius: 15px;
+}
+#dispaly-screen{
+    width: 100%;
+    height: 207px;
+    background: #1f1f2e;
+    transition: all .2s ease-in-out;
+}
+#dispaly-screen:hover{
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 2);
+}
+.btn{
+    padding-top: 27px;
+    text-align: center;
+    border-radius: 5px;
+    width: 91px;
+    height: 43px;
+    margin: 2px;
+    float: left;
+    color: #fff;
+    background: #0a0a0f;
+    border: none;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #fff;
+    background: #1f1f2e;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 1);
+}
+.btn:active {
+    font-weight: bolder;
+}
+.btn-equal {
+    padding-top: 29px;
+    text-align: center;
+    border-radius: 5px;
+    width: 183px;
+    height: 41px;
+    margin: 2px;
+    float: left;
+    color: #fff;
+    background: #0a0a0f;
+    border: none;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.btn-equal:hover{
+    color: #fff;
+    background: #1f1f2e;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 1);
+}
+.btn-equal:active {
+    font-weight: bolder;
+}
+#opt-text {
+    position: relative;
+    top: 30px;
+    left: -9px;
+    text-align: right;
+    font-size: 34px;
+    color: #d1d1e0;
+    border: 1px solid transparent;
+}
+#result-text{
+    position: relative;
+    top: 44px;
+    left: -9px;
+    text-align: right;
+    font-size: 57px;
+    color: #d1d1e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* On screens with a maximum window width of 1280px
+@media screen and (max-width: 1280px)
+On all screen types with a window width of between 1024px and 1280px 
+@media all and (min-width: 1024px) and (max-width: 1280px)  */
